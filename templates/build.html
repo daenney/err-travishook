@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{%- block body -%}
+[Travis-CI] [{{repo}}] build/<a href="{{url}}">{{build_num}}</a>: {{status}} for {{human_msg}}.
+{%- endblock -%}

@@ -1,0 +1,9 @@
+[Core]
+Name = TravisHook
+Module = travishook
+
+[Documentation]
+Description = Handle events sent from Travis-CI to our webhooks endpoint.
+
+[Python]
+Version = 2+
